@@ -1,0 +1,13 @@
+torch 与 numpy 对比
+两者相互转换：
+           np_data=np.arange(6).reshape((2,3))    #用numpy创建一个矩阵
+           torch_data=torch.from_numpy(np_data)   #numpy 2 torch
+           tensor2array = torch_data.numpy()      #torch 2 numpy
+#利用函数，例如abs
+data=[-1,-2,1,2]
+tensor = torch.FloatTensor(data) 
+print(
+    '\nabs',
+    '\nnumpy:',np.abs(data),
+    '\ntorch:',torch.abs(tensor)   #torch.abs()括号中得是tensor，不能直接用data
+)
