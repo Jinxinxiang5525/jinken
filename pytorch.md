@@ -1,4 +1,5 @@
 torch 与 numpy 对比
+
 两者相互转换：
            np_data=np.arange(6).reshape((2,3))    #用numpy创建一个矩阵
            torch_data=torch.from_numpy(np_data)   #numpy 2 torch
