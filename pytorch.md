@@ -15,9 +15,13 @@ data=[-1,-2,1,2]
 tensor = torch.FloatTensor(data) 
 
 print(
+
     '\nabs',
+    
     '\nnumpy:',np.abs(data),
+    
     '\ntorch:',torch.abs(tensor)   #torch.abs()括号中得是tensor，不能直接用data
+    
 )
 -----------------------------------------------------
 
