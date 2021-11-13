@@ -7,6 +7,8 @@ torch 与 numpy 对比
            torch_data=torch.from_numpy(np_data)   #numpy 2 torch
            
            tensor2array = torch_data.numpy()      #torch 2 numpy
+      
+--------------------------------------------------------------------------      
            
 #利用函数，例如abs，mean
 
@@ -23,6 +25,7 @@ print(
     '\ntorch:',torch.abs(tensor)   #torch.abs()括号中得是tensor，不能直接用data
     
 )
+
 -----------------------------------------------------
 
 a=torch.tensor([1.,2,3,4],requires_grad=True)  ->返回梯度值，如果为False，则后续a.grad不能执行
