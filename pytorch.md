@@ -25,4 +25,4 @@ e.backward()
 print(a.grad)  ->tensor([2.7500,2.7500,2.7500,2.7500])
 ---------------------------------------------------------
 激励函数
-![image](https://github.com/Jinxinxiang5525/jinken/blob/main/)X1V%5B9_M8JERLGAM_HXC%5BZ5.png)
+![image](https://github.com/Jinxinxiang5525/jinken/blob/main/%E6%BF%80%E5%8A%B1%E5%87%BD%E6%95%B0.png)
