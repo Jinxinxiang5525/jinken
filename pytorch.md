@@ -24,3 +24,5 @@ e=torch.mean(a*2)
 e.backward()
 print(a.grad)  ->tensor([2.7500,2.7500,2.7500,2.7500])
 ---------------------------------------------------------
+激励函数
+![image](https://github.com/Jinxinxiang5525/jinken/blob/main/)X1V%5B9_M8JERLGAM_HXC%5BZ5.png)
